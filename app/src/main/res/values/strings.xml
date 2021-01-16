@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TimeTableApp</string>
+    <string name="time_table_for_b_tech_2019_batch">Time-Table For B.tech 2019 Batch</string>
+    <string name="button1">Button</string>
+    <string name="button2">Button</string>
+    <string name="button3">Button</string>
+    <string name="button4">Button</string>
+    <string name="button5">Button</string>
+    <string name="button6">Button</string>
+    <string name="_2_to_5_ct215">2 to 5 : CT215</string>
+</resources>
