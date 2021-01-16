@@ -1,0 +1,83 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.timetableapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\Om Patel\Desktop\WOC-Project\TimeTableApp\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\Om Patel\Desktop\WOC-Project\TimeTableApp\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\Om Patel\Desktop\WOC-Project\TimeTableApp\app\src\main\AndroidManifest.xml:5:5-25:19
+12        android:allowBackup="true"
+12-->C:\Users\Om Patel\Desktop\WOC-Project\TimeTableApp\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.3.1] C:\Users\Om Patel\.gradle\caches\transforms-2\files-2.1\bb39ea0a726041ab478566c42daa0a7a\core-1.3.1\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->C:\Users\Om Patel\Desktop\WOC-Project\TimeTableApp\app\src\main\AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->C:\Users\Om Patel\Desktop\WOC-Project\TimeTableApp\app\src\main\AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->C:\Users\Om Patel\Desktop\WOC-Project\TimeTableApp\app\src\main\AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->C:\Users\Om Patel\Desktop\WOC-Project\TimeTableApp\app\src\main\AndroidManifest.xml:10:9-35
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme" >
+20-->C:\Users\Om Patel\Desktop\WOC-Project\TimeTableApp\app\src\main\AndroidManifest.xml:11:9-40
+21        <activity
+21-->C:\Users\Om Patel\Desktop\WOC-Project\TimeTableApp\app\src\main\AndroidManifest.xml:12:9-98
+22            android:name="com.example.timetableapp.Saturday"
+22-->C:\Users\Om Patel\Desktop\WOC-Project\TimeTableApp\app\src\main\AndroidManifest.xml:12:19-43
+23            android:parentActivityName="com.example.timetableapp.MainActivity" />
+23-->C:\Users\Om Patel\Desktop\WOC-Project\TimeTableApp\app\src\main\AndroidManifest.xml:12:44-86
+24        <activity
+24-->C:\Users\Om Patel\Desktop\WOC-Project\TimeTableApp\app\src\main\AndroidManifest.xml:13:9-87
+25            android:name="com.example.timetableapp.Friday"
+25-->C:\Users\Om Patel\Desktop\WOC-Project\TimeTableApp\app\src\main\AndroidManifest.xml:13:19-41
+26            android:parentActivityName="com.example.timetableapp.MainActivity" />
+26-->C:\Users\Om Patel\Desktop\WOC-Project\TimeTableApp\app\src\main\AndroidManifest.xml:13:42-84
+27        <activity
+27-->C:\Users\Om Patel\Desktop\WOC-Project\TimeTableApp\app\src\main\AndroidManifest.xml:14:9-89
+28            android:name="com.example.timetableapp.Thursday"
+28-->C:\Users\Om Patel\Desktop\WOC-Project\TimeTableApp\app\src\main\AndroidManifest.xml:14:19-43
+29            android:parentActivityName="com.example.timetableapp.MainActivity" />
+29-->C:\Users\Om Patel\Desktop\WOC-Project\TimeTableApp\app\src\main\AndroidManifest.xml:14:45-87
+30        <activity
+30-->C:\Users\Om Patel\Desktop\WOC-Project\TimeTableApp\app\src\main\AndroidManifest.xml:15:9-90
+31            android:name="com.example.timetableapp.Wednesday"
+31-->C:\Users\Om Patel\Desktop\WOC-Project\TimeTableApp\app\src\main\AndroidManifest.xml:15:19-44
+32            android:parentActivityName="com.example.timetableapp.MainActivity" />
+32-->C:\Users\Om Patel\Desktop\WOC-Project\TimeTableApp\app\src\main\AndroidManifest.xml:15:45-87
+33        <activity
+33-->C:\Users\Om Patel\Desktop\WOC-Project\TimeTableApp\app\src\main\AndroidManifest.xml:16:9-87
+34            android:name="com.example.timetableapp.Tuesday"
+34-->C:\Users\Om Patel\Desktop\WOC-Project\TimeTableApp\app\src\main\AndroidManifest.xml:16:19-42
+35            android:parentActivityName="com.example.timetableapp.MainActivity" />
+35-->C:\Users\Om Patel\Desktop\WOC-Project\TimeTableApp\app\src\main\AndroidManifest.xml:16:43-85
+36        <activity
+36-->C:\Users\Om Patel\Desktop\WOC-Project\TimeTableApp\app\src\main\AndroidManifest.xml:17:9-87
+37            android:name="com.example.timetableapp.Monday"
+37-->C:\Users\Om Patel\Desktop\WOC-Project\TimeTableApp\app\src\main\AndroidManifest.xml:17:19-41
+38            android:parentActivityName="com.example.timetableapp.MainActivity" />
+38-->C:\Users\Om Patel\Desktop\WOC-Project\TimeTableApp\app\src\main\AndroidManifest.xml:17:42-84
+39        <activity android:name="com.example.timetableapp.MainActivity" >
+39-->C:\Users\Om Patel\Desktop\WOC-Project\TimeTableApp\app\src\main\AndroidManifest.xml:18:9-24:20
+39-->C:\Users\Om Patel\Desktop\WOC-Project\TimeTableApp\app\src\main\AndroidManifest.xml:18:19-47
+40            <intent-filter>
+40-->C:\Users\Om Patel\Desktop\WOC-Project\TimeTableApp\app\src\main\AndroidManifest.xml:19:13-23:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->C:\Users\Om Patel\Desktop\WOC-Project\TimeTableApp\app\src\main\AndroidManifest.xml:20:17-69
+41-->C:\Users\Om Patel\Desktop\WOC-Project\TimeTableApp\app\src\main\AndroidManifest.xml:20:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->C:\Users\Om Patel\Desktop\WOC-Project\TimeTableApp\app\src\main\AndroidManifest.xml:22:17-77
+43-->C:\Users\Om Patel\Desktop\WOC-Project\TimeTableApp\app\src\main\AndroidManifest.xml:22:27-74
+44            </intent-filter>
+45        </activity>
+46    </application>
+47
+48</manifest>

@@ -1,0 +1,4 @@
+#Sun Jan 17 00:00:54 IST 2021
+base.0=C\:\\Users\\Om Patel\\Desktop\\WOC-Project\\TimeTableApp\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
